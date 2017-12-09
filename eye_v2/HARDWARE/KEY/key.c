@@ -49,8 +49,8 @@ extern u8 flag_msg;
 extern u8 sim_ready;
 u8 KEY_PRESS(void)
 {
-	if((flag_msg==2)&&(sim_ready==0))		//求救按键按下
-//		if((flag_msg==2))		//求救按键按下
+//	if((flag_msg==2)&&(sim_ready==0))		//求救按键按下
+		if((flag_msg==2))		//求救按键按下
 		{
 			USART4_GPS();
 			sim800c_sms_send_test();

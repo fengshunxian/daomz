@@ -1191,7 +1191,7 @@ void ntp_update(void)
 	 sim800c_send_cmd("AT+SAPBR=3,1,\"Contype\",\"GPRS\"","OK",200);//配置承载场景1
 	 sim800c_send_cmd("AT+SAPBR=3,1,\"APN\",\"CMNET\"","OK",200);
 	 sim800c_send_cmd("AT+SAPBR=1,1",0,200);//激活一个GPRS上下文
-   delay_ms(5);
+   delay_ms(10);
    sim800c_send_cmd("AT+CNTPCID=1","OK",200);//设置CNTP使用的CID
 	 sim800c_send_cmd("AT+CNTP=\"202.120.2.101\",32","OK",200);//设置NTP服务器和本地时区(32时区 时间最准确)
    sim800c_send_cmd("AT+CNTP","+CNTP: 1",600);//同步网络时间
@@ -1202,7 +1202,8 @@ extern	u8 sim_ready;
 void sim800c_test(void)
 {
 	u8 *p1;
-	while(sim800c_send_cmd("AT+CNUM","+CNUM",200))//检测是否应答AT指令 
+	while(sim800c_send_cmd("AT","OK",200))//检测是否应答AT指令 
+//	while(sim800c_send_cmd("AT+CNUM","+CNUM",200))//检测是否应答AT指令 
 	{
 		delay_ms(400);
 		sim_ready++;
@@ -1214,8 +1215,8 @@ void sim800c_test(void)
 	SHAKE =0;
 	sim800c_send_cmd("ATE0","OK",200);//不回显
 //	sim800c_mtest_ui(40,20);
-//	ntp_update();//网络同步时间
-	sim800c_sms_read_test();
+	ntp_update();//网络同步时间
+//	sim800c_sms_read_test();
 	
 		
 }

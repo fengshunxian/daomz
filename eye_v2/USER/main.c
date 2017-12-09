@@ -43,7 +43,7 @@ int main(void)
 	usart4_init(9600);		                 //初始化串口4 	
 	usart3_init(115200);		               //初始化串口3 	
 	EXTIX_Init();       									 //初始化外部中断输入 
-//	sim800c_test();                        //GSM测试+读取短信
+	sim800c_test();                        //GSM测试+读取短信
 	while(1)
 	{	
 //		if(USART4_RX_STA&0X8000)		//GPS接收到一次数据了
@@ -58,12 +58,12 @@ int main(void)
 	  KEY_PRESS();												//检测到按键按下发送定位短信
 		fall_ret = Fall_down(aacx,aacy,aacz);
 		if(fall_ret==0)avoidance_task1(safe_distance);		//避障完成一次500ms
-		if(timex%10000==0)
+		if(timex%1000==0)
 			while(USART4_GPS())
 			{
 				i++;
 				delay_ms(100);
-				if(i==5)
+				if(i>=5)
 					break;
 			};
 		delay_ms(200);

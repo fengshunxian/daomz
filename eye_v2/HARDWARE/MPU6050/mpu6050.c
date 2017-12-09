@@ -240,7 +240,7 @@ u8 Fall_down(short aacx,short aacy,short aacz)
 //	u3_printf(p);
 		if(xx<20)
 		{
-	//		sim800c_sms_send_test();
+			sim800c_sms_send_test();
 			res=1;
 			BEEP=1;
 			delay_ms(5000);
