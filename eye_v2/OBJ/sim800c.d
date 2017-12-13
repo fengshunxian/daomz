@@ -41,13 +41,6 @@
 ..\obj\sim800c.o: ..\SYSTEM\delay\delay.h
 ..\obj\sim800c.o: ..\HARDWARE\LED\led.h
 ..\obj\sim800c.o: ..\HARDWARE\KEY\key.h
-..\obj\sim800c.o: ..\HARDWARE\LCD\lcd.h
-..\obj\sim800c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\sim800c.o: ..\HARDWARE\W25QXX\w25qxx.h
-..\obj\sim800c.o: ..\HARDWARE\TOUCH\touch.h
-..\obj\sim800c.o: ..\HARDWARE\TOUCH\ott2001a.h
-..\obj\sim800c.o: ..\HARDWARE\TOUCH\gt9147.h
-..\obj\sim800c.o: ..\HARDWARE\TOUCH\ft5206.h
 ..\obj\sim800c.o: ..\MALLOC\malloc.h
 ..\obj\sim800c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\sim800c.o: ..\TEXT\text.h

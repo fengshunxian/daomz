@@ -43,7 +43,6 @@
 ..\obj\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 ..\obj\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
-..\obj\gps.o: ..\HARDWARE\LCD\lcd.h
-..\obj\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\gps.o: ..\SYSTEM\usart\usart.h
 ..\obj\gps.o: ..\HARDWARE\KEY\key.h
+..\obj\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

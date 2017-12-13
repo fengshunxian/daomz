@@ -37,8 +37,6 @@
 ..\obj\beep.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\beep.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\beep.o: ..\SYSTEM\delay\delay.h
-..\obj\beep.o: ..\HARDWARE\LCD\lcd.h
-..\obj\beep.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\beep.o: ..\HARDWARE\LED\led.h
 ..\obj\beep.o: ..\HARDWARE\USART3\usart3.h
 ..\obj\beep.o: ..\SIM800C\sim800c.h

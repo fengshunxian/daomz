@@ -21,54 +21,19 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
 Dialog DLL:      TCM.DLL V1.14.4.0
  
 <h2>Project:</h2>
-C:\Users\Administrator\Desktop\智能导盲二代测试v2\USER\GSM.uvprojx
-Project File Date:  12/09/2017
+D:\SOURCESTREE\eye_v2\eye_v2\USER\GSM.uvprojx
+Project File Date:  12/13/2017
 
 <h2>Output:</h2>
 Build target 'GSM'
-compiling key.c...
-compiling mpu6050.c...
-compiling sim800c.c...
-..\SIM800C\sim800c.c(459): warning:  #192-D: unrecognized character escape sequence
-                if(sim800c_send_cmd("AT+CPMS=\"SM\"\,\"SM\"\,\"SM","+CPMS:",200)==0)    //查询优选消息存储器
-..\SIM800C\sim800c.c(459): warning:  #192-D: unrecognized character escape sequence
-                if(sim800c_send_cmd("AT+CPMS=\"SM\"\,\"SM\"\,\"SM","+CPMS:",200)==0)    //查询优选消息存储器
-..\SIM800C\sim800c.c(506): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
-                                sprintf(p,"AT+CMGD=%d,0",j+1);                                                          //删除本条短信
-..\SIM800C\sim800c.c(443): warning:  #177-D: variable "delbuf" was declared but never referenced
-        u8 *p,*p1,*p2,*delbuf;
-..\SIM800C\sim800c.c(446): warning:  #177-D: variable "delnum" was declared but never referenced
-        u8 j=0,delnum=0;
-..\SIM800C\sim800c.c(447): warning:  #177-D: variable "msglen" was declared but never referenced
-        u8 msglen=0;
-..\SIM800C\sim800c.c(452): warning:  #177-D: variable "key" was declared but never referenced
-        u8 key=0;
-..\SIM800C\sim800c.c(453): warning:  #177-D: variable "smsreadsta" was declared but never referenced
-        u8 smsreadsta=0;        //是否在短信显示状态
-..\SIM800C\sim800c.c(541): warning:  #177-D: variable "p" was declared but never referenced
-        char *p;
-..\SIM800C\sim800c.c(543): warning:  #177-D: variable "p2" was declared but never referenced
-        u8 *p2;
-..\SIM800C\sim800c.c(544): warning:  #177-D: variable "j" was declared but never referenced
-        u8 i =1,j,k;
-..\SIM800C\sim800c.c(544): warning:  #177-D: variable "k" was declared but never referenced
-        u8 i =1,j,k;
-..\SIM800C\sim800c.c(545): warning:  #177-D: variable "smssendsta" was declared but never referenced
-        u8 smssendsta=0;                //短信发送状态,0,等待发送;1,发送失败;2,发送成功 
-..\SIM800C\sim800c.c(586): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
-                        if(!strcmp(phonedel[j],phonenum[k])) 
-..\SIM800C\sim800c.c(586): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
-                        if(!strcmp(phonedel[j],phonenum[k])) 
-..\SIM800C\sim800c.c(1204): warning:  #177-D: variable "p1" was declared but never referenced
-        u8 *p1;
-..\SIM800C\sim800c.c: 16 warnings, 0 errors
+compiling main.c...
 linking...
-Program Size: Code=26636 RO-data=960 RW-data=496 ZI-data=6016  
+Program Size: Code=19568 RO-data=752 RW-data=88 ZI-data=1115264  
 FromELF: creating hex file...
-"..\OBJ\GSM.axf" - 0 Error(s), 16 Warning(s).
+"..\OBJ\GSM.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
-  C:\Users\Administrator\Desktop\智能导盲二代测试v2\USER\RTE
+  D:\SOURCESTREE\eye_v2\eye_v2\USER\RTE
   C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0
 
 <h2>Collection of Component Files used:</h2>

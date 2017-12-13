@@ -49,6 +49,3 @@
 ..\obj\main.o: ..\HARDWARE\GPS\gps.h
 ..\obj\main.o: ..\HARDWARE\USART4\usart4.h
 ..\obj\main.o: ..\HARDWARE\EXTI\exti.h
-..\obj\main.o: ..\HARDWARE\MPU6050\mpu6050.h
-..\obj\main.o: ..\HARDWARE\MPU6050\eMPL\inv_mpu.h
-..\obj\main.o: ..\HARDWARE\MPU6050\eMPL\inv_mpu_dmp_motion_driver.h

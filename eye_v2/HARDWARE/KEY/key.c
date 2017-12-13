@@ -39,8 +39,6 @@ u8 KEY_Scan(u8 mode)
 		delay_ms(10);//去抖动 
 		key_up=0;
 		if(KEY0==1)return 1;
-//		else if(KEY1==1)return 2;
-//		else if(KEY2==1)return 3;
 		else if(WK_UP==1)return 4;
 	}else if(KEY0==1&&KEY2==1)key_up=1; 	    
  	return 0;// 无按键按下

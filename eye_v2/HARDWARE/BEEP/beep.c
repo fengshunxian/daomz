@@ -1,6 +1,5 @@
 #include "beep.h" 
 #include "delay.h"
-#include "lcd.h"
 #include "led.h"
 #include "usart3.h"
 #include "sim800c.h"

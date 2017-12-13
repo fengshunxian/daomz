@@ -37,6 +37,4 @@
 ..\obj\myiic.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\myiic.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
 ..\obj\myiic.o: ..\SYSTEM\delay\delay.h
-..\obj\myiic.o: ..\HARDWARE\LCD\lcd.h
-..\obj\myiic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\myiic.o: ..\HARDWARE\BEEP\beep.h
