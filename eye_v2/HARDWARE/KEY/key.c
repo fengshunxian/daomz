@@ -50,19 +50,21 @@ extern u8 sim_ready;
 u8 KEY_PRESS(void)
 {
 //	if((flag_msg==2)&&(sim_ready==0))		//求救按键按下
-		if((flag_msg==2))		//求救按键按下
+		if(flag_msg ==2)		//求救按键按下
 		{
 			USART4_GPS();
 			sim800c_sms_send_test();
 			SHAKE=1;
 			delay_ms(300); 
-			SHAKE=0; 		
+			SHAKE=0;
+		flag_msg=0;			
 		}
 		else if(flag_msg==1)			//报时按键按下
 		{
 			Timer_get();	
+			flag_msg=0;
 		}
-		flag_msg=0;
+		
 	return 0;
 }
 

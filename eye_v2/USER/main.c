@@ -56,7 +56,7 @@ int main(void)
 //			}
 //		if(timex%6==0)USART4_GPS();				//3s更新一下GPS定位信息
 	  KEY_PRESS();												//检测到按键按下发送定位短信
-		fall_ret = Fall_down(aacx,aacy,aacz);
+//		fall_ret = Fall_down(aacx,aacy,aacz);
 		if(fall_ret==0)avoidance_task1(safe_distance);		//避障完成一次500ms
 		if(timex%1000==0)
 			while(USART4_GPS())

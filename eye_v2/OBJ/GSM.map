@@ -922,19 +922,19 @@ Image Symbol Table
     .ARM.Collect$$$$00002712                 0x08000198   Section        4  entry2.o(.ARM.Collect$$$$00002712)
     __lit__00000000                          0x08000198   Data           4  entry2.o(.ARM.Collect$$$$00002712)
     .text                                    0x0800019c   Section        0  main.o(.text)
-    .text                                    0x08000254   Section        0  stm32f4xx_it.o(.text)
-    .text                                    0x08000270   Section        0  system_stm32f4xx.o(.text)
-    SetSysClock                              0x08000271   Thumb Code   220  system_stm32f4xx.o(.text)
-    .text                                    0x08000480   Section        0  led.o(.text)
-    .text                                    0x080004c0   Section        0  key.o(.text)
-    .text                                    0x080005cc   Section        0  myiic.o(.text)
-    .text                                    0x08000c3c   Section        0  timer.o(.text)
-    .text                                    0x08000dd0   Section        0  usart3.o(.text)
-    .text                                    0x08000f5c   Section        0  beep.o(.text)
-    .text                                    0x080011f4   Section        0  gps.o(.text)
-    .text                                    0x08001528   Section        0  usart2.o(.text)
-    .text                                    0x080016ac   Section        0  usart4.o(.text)
-    .text                                    0x08001884   Section        0  exti.o(.text)
+    .text                                    0x08000248   Section        0  stm32f4xx_it.o(.text)
+    .text                                    0x08000264   Section        0  system_stm32f4xx.o(.text)
+    SetSysClock                              0x08000265   Thumb Code   220  system_stm32f4xx.o(.text)
+    .text                                    0x08000474   Section        0  led.o(.text)
+    .text                                    0x080004b4   Section        0  key.o(.text)
+    .text                                    0x080005c8   Section        0  myiic.o(.text)
+    .text                                    0x08000c38   Section        0  timer.o(.text)
+    .text                                    0x08000dcc   Section        0  usart3.o(.text)
+    .text                                    0x08000f58   Section        0  beep.o(.text)
+    .text                                    0x080011f0   Section        0  gps.o(.text)
+    .text                                    0x08001524   Section        0  usart2.o(.text)
+    .text                                    0x080016a8   Section        0  usart4.o(.text)
+    .text                                    0x08001880   Section        0  exti.o(.text)
     .text                                    0x0800195c   Section        0  mpu6050.o(.text)
     .text                                    0x08001d60   Section        0  delay.o(.text)
     .text                                    0x08001e64   Section        0  usart.o(.text)
@@ -1112,73 +1112,73 @@ Image Symbol Table
     _main_init                               0x08000191   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
     __rt_final_cpp                           0x08000199   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
     __rt_final_exit                          0x08000199   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
-    main                                     0x0800019d   Thumb Code   174  main.o(.text)
-    NMI_Handler                              0x08000255   Thumb Code     2  stm32f4xx_it.o(.text)
-    HardFault_Handler                        0x08000257   Thumb Code     4  stm32f4xx_it.o(.text)
-    MemManage_Handler                        0x0800025b   Thumb Code     4  stm32f4xx_it.o(.text)
-    BusFault_Handler                         0x0800025f   Thumb Code     4  stm32f4xx_it.o(.text)
-    UsageFault_Handler                       0x08000263   Thumb Code     4  stm32f4xx_it.o(.text)
-    SVC_Handler                              0x08000267   Thumb Code     2  stm32f4xx_it.o(.text)
-    DebugMon_Handler                         0x08000269   Thumb Code     2  stm32f4xx_it.o(.text)
-    PendSV_Handler                           0x0800026b   Thumb Code     2  stm32f4xx_it.o(.text)
-    SysTick_Handler                          0x0800026d   Thumb Code     2  stm32f4xx_it.o(.text)
-    SystemInit                               0x0800034d   Thumb Code    88  system_stm32f4xx.o(.text)
-    SystemCoreClockUpdate                    0x080003a5   Thumb Code   174  system_stm32f4xx.o(.text)
-    LED_Init                                 0x08000481   Thumb Code    60  led.o(.text)
-    KEY_Init                                 0x080004c1   Thumb Code    50  key.o(.text)
-    KEY_Scan                                 0x080004f3   Thumb Code   128  key.o(.text)
-    KEY_PRESS                                0x08000573   Thumb Code    62  key.o(.text)
-    IIC_Init                                 0x080005cd   Thumb Code   162  myiic.o(.text)
-    IIC_Start                                0x0800066f   Thumb Code    68  myiic.o(.text)
-    IIC_Stop                                 0x080006b3   Thumb Code    62  myiic.o(.text)
-    IIC_Wait_Ack                             0x080006f1   Thumb Code    86  myiic.o(.text)
-    IIC_Ack                                  0x08000747   Thumb Code    66  myiic.o(.text)
-    IIC_NAck                                 0x08000789   Thumb Code    66  myiic.o(.text)
-    IIC_Send_Byte                            0x080007cb   Thumb Code    90  myiic.o(.text)
-    IIC_Read_Byte                            0x08000825   Thumb Code    94  myiic.o(.text)
-    KS102_WriteOneByte                       0x08000883   Thumb Code    48  myiic.o(.text)
-    KS102_ReadOneByte                        0x080008b3   Thumb Code    70  myiic.o(.text)
-    IIC_Stop1                                0x080008f9   Thumb Code    64  myiic.o(.text)
-    IIC_Ack1                                 0x08000939   Thumb Code    66  myiic.o(.text)
-    IIC_NAck1                                0x0800097b   Thumb Code    66  myiic.o(.text)
-    IIC_Read_Byte1                           0x080009bd   Thumb Code   132  myiic.o(.text)
-    IIC_Wait_Ack1                            0x08000a41   Thumb Code    84  myiic.o(.text)
-    IIC_Send_Byte1                           0x08000a95   Thumb Code    88  myiic.o(.text)
-    IIC_Start1                               0x08000aed   Thumb Code    70  myiic.o(.text)
-    KS102_ReadOneByte1                       0x08000b33   Thumb Code    70  myiic.o(.text)
-    KS102_WriteOneByte1                      0x08000b79   Thumb Code    48  myiic.o(.text)
-    avoidance_task                           0x08000ba9   Thumb Code    70  myiic.o(.text)
-    avoidance_task1                          0x08000bef   Thumb Code    62  myiic.o(.text)
-    TIM7_SetARR                              0x08000c3d   Thumb Code    36  timer.o(.text)
-    TIM7_IRQHandler                          0x08000c61   Thumb Code   108  timer.o(.text)
-    TIM7_Int_Init                            0x08000ccd   Thumb Code    78  timer.o(.text)
-    TIM2_SetARR                              0x08000d1b   Thumb Code    38  timer.o(.text)
-    TIM2_IRQHandler                          0x08000d41   Thumb Code    44  timer.o(.text)
-    TIM2_Int_Init                            0x08000d6d   Thumb Code    80  timer.o(.text)
-    USART3_IRQHandler                        0x08000dd1   Thumb Code    96  usart3.o(.text)
-    usart3_init                              0x08000e31   Thumb Code   204  usart3.o(.text)
-    u3_printf                                0x08000efd   Thumb Code    72  usart3.o(.text)
-    BEEP_Init                                0x08000f5d   Thumb Code   104  beep.o(.text)
-    Beep_warning                             0x08000fc5   Thumb Code    52  beep.o(.text)
-    VOICE_TEST                               0x08000ff9   Thumb Code    88  beep.o(.text)
-    Timer_get                                0x08001051   Thumb Code   308  beep.o(.text)
-    Date_Sorting                             0x08001185   Thumb Code    60  beep.o(.text)
-    Getcomma                                 0x080011f5   Thumb Code    50  gps.o(.text)
-    data_change2                             0x08001227   Thumb Code   226  gps.o(.text)
-    get_double_number2                       0x08001309   Thumb Code    82  gps.o(.text)
-    data_change1                             0x0800135b   Thumb Code   230  gps.o(.text)
-    get_double_number1                       0x08001441   Thumb Code   102  gps.o(.text)
-    NMEA_GNGGA_Analysis                      0x080014a7   Thumb Code    98  gps.o(.text)
-    USART2_IRQHandler                        0x08001529   Thumb Code    98  usart2.o(.text)
-    usart2_init                              0x0800158b   Thumb Code   196  usart2.o(.text)
-    u2_printf                                0x0800164f   Thumb Code    72  usart2.o(.text)
-    UART4_IRQHandler                         0x080016ad   Thumb Code    98  usart4.o(.text)
-    usart4_init                              0x0800170f   Thumb Code   196  usart4.o(.text)
-    u4_printf                                0x080017d3   Thumb Code    72  usart4.o(.text)
-    USART4_GPS                               0x0800181b   Thumb Code    80  usart4.o(.text)
-    EXTI4_IRQHandler                         0x08001885   Thumb Code    40  exti.o(.text)
-    EXTI9_5_IRQHandler                       0x080018ad   Thumb Code    46  exti.o(.text)
-    EXTIX_Init                               0x080018db   Thumb Code   118  exti.o(.text)
+    main                                     0x0800019d   Thumb Code   162  main.o(.text)
+    NMI_Handler                              0x08000249   Thumb Code     2  stm32f4xx_it.o(.text)
+    HardFault_Handler                        0x0800024b   Thumb Code     4  stm32f4xx_it.o(.text)
+    MemManage_Handler                        0x0800024f   Thumb Code     4  stm32f4xx_it.o(.text)
+    BusFault_Handler                         0x08000253   Thumb Code     4  stm32f4xx_it.o(.text)
+    UsageFault_Handler                       0x08000257   Thumb Code     4  stm32f4xx_it.o(.text)
+    SVC_Handler                              0x0800025b   Thumb Code     2  stm32f4xx_it.o(.text)
+    DebugMon_Handler                         0x0800025d   Thumb Code     2  stm32f4xx_it.o(.text)
+    PendSV_Handler                           0x0800025f   Thumb Code     2  stm32f4xx_it.o(.text)
+    SysTick_Handler                          0x08000261   Thumb Code     2  stm32f4xx_it.o(.text)
+    SystemInit                               0x08000341   Thumb Code    88  system_stm32f4xx.o(.text)
+    SystemCoreClockUpdate                    0x08000399   Thumb Code   174  system_stm32f4xx.o(.text)
+    LED_Init                                 0x08000475   Thumb Code    60  led.o(.text)
+    KEY_Init                                 0x080004b5   Thumb Code    50  key.o(.text)
+    KEY_Scan                                 0x080004e7   Thumb Code   128  key.o(.text)
+    KEY_PRESS                                0x08000567   Thumb Code    68  key.o(.text)
+    IIC_Init                                 0x080005c9   Thumb Code   162  myiic.o(.text)
+    IIC_Start                                0x0800066b   Thumb Code    68  myiic.o(.text)
+    IIC_Stop                                 0x080006af   Thumb Code    62  myiic.o(.text)
+    IIC_Wait_Ack                             0x080006ed   Thumb Code    86  myiic.o(.text)
+    IIC_Ack                                  0x08000743   Thumb Code    66  myiic.o(.text)
+    IIC_NAck                                 0x08000785   Thumb Code    66  myiic.o(.text)
+    IIC_Send_Byte                            0x080007c7   Thumb Code    90  myiic.o(.text)
+    IIC_Read_Byte                            0x08000821   Thumb Code    94  myiic.o(.text)
+    KS102_WriteOneByte                       0x0800087f   Thumb Code    48  myiic.o(.text)
+    KS102_ReadOneByte                        0x080008af   Thumb Code    70  myiic.o(.text)
+    IIC_Stop1                                0x080008f5   Thumb Code    64  myiic.o(.text)
+    IIC_Ack1                                 0x08000935   Thumb Code    66  myiic.o(.text)
+    IIC_NAck1                                0x08000977   Thumb Code    66  myiic.o(.text)
+    IIC_Read_Byte1                           0x080009b9   Thumb Code   132  myiic.o(.text)
+    IIC_Wait_Ack1                            0x08000a3d   Thumb Code    84  myiic.o(.text)
+    IIC_Send_Byte1                           0x08000a91   Thumb Code    88  myiic.o(.text)
+    IIC_Start1                               0x08000ae9   Thumb Code    70  myiic.o(.text)
+    KS102_ReadOneByte1                       0x08000b2f   Thumb Code    70  myiic.o(.text)
+    KS102_WriteOneByte1                      0x08000b75   Thumb Code    48  myiic.o(.text)
+    avoidance_task                           0x08000ba5   Thumb Code    70  myiic.o(.text)
+    avoidance_task1                          0x08000beb   Thumb Code    62  myiic.o(.text)
+    TIM7_SetARR                              0x08000c39   Thumb Code    36  timer.o(.text)
+    TIM7_IRQHandler                          0x08000c5d   Thumb Code   108  timer.o(.text)
+    TIM7_Int_Init                            0x08000cc9   Thumb Code    78  timer.o(.text)
+    TIM2_SetARR                              0x08000d17   Thumb Code    38  timer.o(.text)
+    TIM2_IRQHandler                          0x08000d3d   Thumb Code    44  timer.o(.text)
+    TIM2_Int_Init                            0x08000d69   Thumb Code    80  timer.o(.text)
+    USART3_IRQHandler                        0x08000dcd   Thumb Code    96  usart3.o(.text)
+    usart3_init                              0x08000e2d   Thumb Code   204  usart3.o(.text)
+    u3_printf                                0x08000ef9   Thumb Code    72  usart3.o(.text)
+    BEEP_Init                                0x08000f59   Thumb Code   104  beep.o(.text)
+    Beep_warning                             0x08000fc1   Thumb Code    52  beep.o(.text)
+    VOICE_TEST                               0x08000ff5   Thumb Code    88  beep.o(.text)
+    Timer_get                                0x0800104d   Thumb Code   308  beep.o(.text)
+    Date_Sorting                             0x08001181   Thumb Code    60  beep.o(.text)
+    Getcomma                                 0x080011f1   Thumb Code    50  gps.o(.text)
+    data_change2                             0x08001223   Thumb Code   226  gps.o(.text)
+    get_double_number2                       0x08001305   Thumb Code    82  gps.o(.text)
+    data_change1                             0x08001357   Thumb Code   230  gps.o(.text)
+    get_double_number1                       0x0800143d   Thumb Code   102  gps.o(.text)
+    NMEA_GNGGA_Analysis                      0x080014a3   Thumb Code    98  gps.o(.text)
+    USART2_IRQHandler                        0x08001525   Thumb Code    98  usart2.o(.text)
+    usart2_init                              0x08001587   Thumb Code   196  usart2.o(.text)
+    u2_printf                                0x0800164b   Thumb Code    72  usart2.o(.text)
+    UART4_IRQHandler                         0x080016a9   Thumb Code    98  usart4.o(.text)
+    usart4_init                              0x0800170b   Thumb Code   196  usart4.o(.text)
+    u4_printf                                0x080017cf   Thumb Code    72  usart4.o(.text)
+    USART4_GPS                               0x08001817   Thumb Code    80  usart4.o(.text)
+    EXTI4_IRQHandler                         0x08001881   Thumb Code    40  exti.o(.text)
+    EXTI9_5_IRQHandler                       0x080018a9   Thumb Code    48  exti.o(.text)
+    EXTIX_Init                               0x080018d9   Thumb Code   118  exti.o(.text)
     MPU_Write_Byte                           0x0800195d   Thumb Code    68  mpu6050.o(.text)
     MPU_Set_LPF                              0x080019a1   Thumb Code    58  mpu6050.o(.text)
     MPU_Set_Rate                             0x080019db   Thumb Code    58  mpu6050.o(.text)
@@ -1652,20 +1652,20 @@ Memory Map of the image
     0x08000198   0x00000000   Code   RO         1500    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
     0x08000198   0x00000000   Code   RO         1502    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
     0x08000198   0x00000004   Code   RO         1491    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
-    0x0800019c   0x000000b8   Code   RO            4    .text               main.o
-    0x08000254   0x0000001a   Code   RO          199    .text               stm32f4xx_it.o
-    0x0800026e   0x00000002   PAD
-    0x08000270   0x00000210   Code   RO          252    .text               system_stm32f4xx.o
-    0x08000480   0x00000040   Code   RO          282    .text               led.o
-    0x080004c0   0x0000010c   Code   RO          306    .text               key.o
-    0x080005cc   0x00000670   Code   RO          332    .text               myiic.o
-    0x08000c3c   0x00000194   Code   RO          364    .text               timer.o
-    0x08000dd0   0x0000018c   Code   RO          393    .text               usart3.o
-    0x08000f5c   0x00000298   Code   RO          434    .text               beep.o
-    0x080011f4   0x00000334   Code   RO          459    .text               gps.o
-    0x08001528   0x00000184   Code   RO          499    .text               usart2.o
-    0x080016ac   0x000001d8   Code   RO          530    .text               usart4.o
-    0x08001884   0x000000d8   Code   RO          562    .text               exti.o
+    0x0800019c   0x000000ac   Code   RO            4    .text               main.o
+    0x08000248   0x0000001a   Code   RO          199    .text               stm32f4xx_it.o
+    0x08000262   0x00000002   PAD
+    0x08000264   0x00000210   Code   RO          252    .text               system_stm32f4xx.o
+    0x08000474   0x00000040   Code   RO          282    .text               led.o
+    0x080004b4   0x00000114   Code   RO          306    .text               key.o
+    0x080005c8   0x00000670   Code   RO          332    .text               myiic.o
+    0x08000c38   0x00000194   Code   RO          364    .text               timer.o
+    0x08000dcc   0x0000018c   Code   RO          393    .text               usart3.o
+    0x08000f58   0x00000298   Code   RO          434    .text               beep.o
+    0x080011f0   0x00000334   Code   RO          459    .text               gps.o
+    0x08001524   0x00000184   Code   RO          499    .text               usart2.o
+    0x080016a8   0x000001d8   Code   RO          530    .text               usart4.o
+    0x08001880   0x000000dc   Code   RO          562    .text               exti.o
     0x0800195c   0x00000404   Code   RO          587    .text               mpu6050.o
     0x08001d60   0x00000104   Code   RO          680    .text               delay.o
     0x08001e64   0x0000013c   Code   RO          728    .text               usart.o
@@ -1779,11 +1779,11 @@ Image component sizes
 
        664         52          0          0          0       2371   beep.o
        260          8          0          4          0       1457   delay.o
-       216         12          0          0          0        925   exti.o
+       220         14          0          0          0        925   exti.o
        820         32        192          0          0       3457   gps.o
-       268         28          0          1          0       1002   key.o
+       276         30          0          1          0       1010   key.o
         64          4          0          0          0        535   led.o
-       184         10          0          8       1275     285945   main.o
+       172         10          0          8       1275     285937   main.o
        224         20          0          0          0       1837   misc.o
       1028         32          0          0          0       4657   mpu6050.o
       1648         54          0          0          0       4995   myiic.o
@@ -1807,7 +1807,7 @@ Image component sizes
       1320         12          0          0          0       5185   usmart_str.o
 
     ----------------------------------------------------------------------
-     21888       2546        824        484       6016     393229   Object Totals
+     21888       2550        824        484       6016     393229   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          4          0          0          5          5          0   (incl. Padding)
 
@@ -1880,9 +1880,9 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     26620       2692        960        496       6016     390109   Grand Totals
-     26620       2692        960        136       6016     390109   ELF Image Totals (compressed)
-     26620       2692        960        136          0          0   ROM Totals
+     26620       2696        960        496       6016     390109   Grand Totals
+     26620       2696        960        136       6016     390109   ELF Image Totals (compressed)
+     26620       2696        960        136          0          0   ROM Totals
 
 ==============================================================================
 

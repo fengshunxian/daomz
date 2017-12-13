@@ -25,7 +25,7 @@ void EXTI4_IRQHandler(void)
 	if(EXTI_GetITStatus(EXTI_Line4)!=RESET)		//报时按键中断
 	{
 		delay_ms(10);	//消抖
-	if(KEY_TIMER==0)	 
+	if(KEY_TIMER==1)	 
 	{				 
 		flag_msg=1;
 		//SHAKE = 1;
@@ -40,7 +40,7 @@ void EXTI9_5_IRQHandler(void)
 	if(EXTI_GetITStatus(EXTI_Line5)!=RESET)		//求救按键中断
 	{
 		delay_ms(10);	//消抖
-	if(KEY_SOS==0)	 
+	if(KEY_SOS==1)	 
 	{				 
 		flag_msg=2;
 		SHAKE =0;
